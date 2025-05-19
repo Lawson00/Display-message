@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.432);
+}
+.container {
+  width: 50%;
+  height: 50vh;
+  border: 1px solid black transparent;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+#input_txt {
+  height: 5vh;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+#enter_btn{
+  height: 5vh;
+  width: 20%;
+  background: rgba(255, 0, 0, 0.911);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#clear_btn {
+    height: 5vh;
+    width: 10%;
+    background: rgba(255, 0, 0, 0.911);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#msg_out {
+  margin-top: 2%;
+}
